@@ -1,7 +1,11 @@
 {
   "rewrites": [
     {
-      "source": "/((?!assets|.*\\..*).*)",
+      "source": "/lp",
+      "destination": "/lp/index.html"
+    },
+    {
+      "source": "/((?!lp(?:/|$)|assets|.*\\..*).*)",
       "destination": "/index.html"
     }
   ]

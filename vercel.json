@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/lp",
+      "destination": "/lp/index.html",
+      "permanent": false
+    },
+    {
+      "source": "/lp/",
+      "destination": "/lp/index.html",
+      "permanent": false
+    }
+  ]
+}

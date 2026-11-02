@@ -12,18 +12,9 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
          integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
          crossorigin="anonymous" referrerpolicy="no-referrer">
-      <!--<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">-->
-      <!--<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">-->
-      <link
-         href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&amp;display=swap"
-         rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css"
-         integrity="sha512-rd0qOHVMOcez6pLWPVFIv7EfSdGKLt+eafXh4RO/12Fgr41hDQxfGvoi1Vy55QIVcQEujUE1LQrATCLl2Fs+ag=="
-         crossorigin="anonymous" referrerpolicy="no-referrer" />
-      <link rel="stylesheet" href="css/style.css?v=20261009-packages-center">
-      <link rel="stylesheet" href="css/responsive.css?v=20261009-packages-center">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+      
+      
 
 
 
@@ -216,7 +207,7 @@
         <div class="footer-bottom">
 
             <p>
-                © 2026 84 Mahadev Tours & Travels | Ujjain Taxi Service. All Rights Reserved.
+                © 2026 | 84 Mahadev Tours & Travels . All Rights Reserved.
             </p>
 
             <p class="design-by">
@@ -231,65 +222,5 @@
     </div>
 
 </footer>
-<!-- Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
-    <!--<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-    </script>
-    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>-->
-    <!-- Add Google Places API -->
-    <!--<script-->
-    <!--  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxHx0h97tbu6pWArFQBYd_9BENChyFMs0%20%20&amp;libraries=places"></script>-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"
-        integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="main.js"></script>
-    <script src="slidepopup.js"></script>
-    <script src="autoscroll.js"></script>
-
-    <script>
-document.addEventListener("DOMContentLoaded", function () {
-
-    const faqItems = document.querySelectorAll(".sai-faq-item");
-
-    faqItems.forEach(function (item) {
-
-        const question = item.querySelector(".sai-faq-question");
-        const answer = item.querySelector(".sai-faq-answer");
-
-        question.addEventListener("click", function () {
-
-            const isActive = item.classList.contains("active");
-
-            // Close all FAQ items
-            faqItems.forEach(function (faq) {
-                faq.classList.remove("active");
-
-                const faqAnswer = faq.querySelector(".sai-faq-answer");
-                faqAnswer.style.maxHeight = null;
-            });
-
-            // Open clicked item
-            if (!isActive) {
-                item.classList.add("active");
-                answer.style.maxHeight = answer.scrollHeight + "px";
-            }
-
-        });
-
-    });
-
-
-    // Keep the first FAQ open on page load
-    const firstItem = document.querySelector(".sai-faq-item.active");
-
-    if (firstItem) {
-        const firstAnswer = firstItem.querySelector(".sai-faq-answer");
-        firstAnswer.style.maxHeight = firstAnswer.scrollHeight + "px";
-    }
-
-});
-</script>
-    </body>
+</body>
     </html>

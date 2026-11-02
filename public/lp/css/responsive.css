@@ -1,0 +1,649 @@
+@media (max-width:1920px) {
+    .call-now {
+        font-size: 15px;
+        padding: 10px 20px 10px 10px
+    }
+
+    .call-now i {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        margin-right: 5px
+    }
+}
+
+@media (max-width:1500px) {
+    .call-now {
+        font-size: 13px;
+        padding: 10px 10px 10px 10px
+    }
+
+    .call-now i {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        margin-right: 3px
+    }
+
+    .banner-bottom p {
+        font-size: 13px
+    }
+}
+
+@media (max-width:1200px) {
+    .mob-order-1 {
+        order: 1
+    }
+
+    .mob-order-2 {
+        order: 2
+    }
+
+    .full-width {
+        flex: 0 0 auto;
+        width: 100%
+    }
+
+    .banner-text {
+        text-align: center;
+        margin-top: 30px
+    }
+
+    .mobile-header {
+        display: none;
+        text-align: center;
+        background: #e2720f;
+        padding: 10px 0
+    }
+
+    .mobile-header a {
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff
+    }
+
+    .call-now {
+        display: none !important
+    }
+
+    .banner .text {
+        padding: 30px 0
+    }
+
+    header.sticky {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 99;
+        box-shadow: rgb(99 99 99 / .2) 0 2px 8px 0
+    }
+
+    header.sticky .navbar {
+        padding: 0
+    }
+
+    header.sticky .main-logo {
+        height: 70px
+    }
+
+    .car-rentals .col-md-4 {
+        flex: 0 0 auto;
+        width: 50%
+    }
+}
+
+@media (max-width:991px) {
+    .mob-order-1a {
+        order: 1
+    }
+
+    .mob-order-2a {
+        order: 2
+    }
+
+    .mob-hide {
+        display: none !important
+    }
+
+    .mob-show {
+        display: block !important
+    }
+
+    .car-rentals .col-md-4 {
+        flex: 0 0 auto;
+        width: 100%
+    }
+
+    .navbar {
+        padding: 0
+    }
+
+    .banner {
+        padding: 0;
+        margin: 0
+    }
+
+    .banner .container {
+        padding: 0;
+        margin: 0
+    }
+
+    .banner .text {
+        padding: 0;
+        margin: 0
+    }
+
+    .banner .ps-5 {
+        padding: 0 !important;
+        text-align: center
+    }
+
+    .packages-top .me-5 {
+        margin: 0 !important
+    }
+
+    .banner-text {
+        margin: 0;
+        padding: 30px
+    }
+
+    .banner-text .btn {
+        margin-bottom: 30px
+    }
+
+    .packages-top .col-md-7 {
+        padding-top: 30px;
+        text-align: center
+    }
+
+    .packages-top .row {
+        margin: 0 !important
+    }
+
+    .packages-top .block {
+        margin-bottom: 30px
+    }
+
+    .packages-bottom {
+        text-align: center;
+        padding-top: 0;
+        margin-top: 0
+    }
+
+    .why-nrk-section .block {
+        margin-bottom: 30px
+    }
+
+    .founder blockquote {
+        display: block !important;
+        text-align: center;
+        margin: 0;
+        padding: 0 10px !important
+    }
+
+    .founder .text-end {
+        text-align: center !important
+    }
+
+    section {
+        padding: 30px 0
+    }
+
+    .mob-text-center {
+        text-align: center !important
+    }
+
+    .stats-section .mob-order-1a {
+        margin-bottom: 30px
+    }
+
+    .stats-section .row {
+        margin: 0 !important
+    }
+
+    .stat-box {
+        border: solid 1px #ccc;
+        padding: 6px 2px;
+        max-width: 32%;
+        min-width: 32%;
+        border-radius: 10px;
+    }
+
+    .footer {
+        text-align: center
+    }
+
+    .footer .row {
+        margin: 0 !important
+    }
+
+    .footer .pe-5 {
+        padding: 0 !important
+    }
+
+    .footer ul,
+    .footer ul li {
+        text-align: left !important
+    }
+
+    .row {
+        margin: 0
+    }
+
+    .footer h3 {
+        border-bottom: solid 1px #fff;
+        text-align: left;
+        padding-bottom: 10px
+    }
+
+    .aboutus {
+        text-align: left
+    }
+
+    .why-card p{
+        margin-bottom: 0;
+    }
+
+    .aboutus ul li {
+        text-align: left
+    }
+
+    .navbar-nav.gap-5 {
+        gap: 0rem !important
+    }
+
+    .navbar-nav.gap-5 li {
+        border-bottom: solid 1px #ccc;
+        padding-bottom: 15px
+    }
+
+    .table-responsive {
+        width: 100%;
+        overflow: auto
+    }
+
+    .table-responsive table {
+        width: 600px !important
+    }
+
+    ul li {
+        text-align: left
+    }
+
+    .whatsapp-icon {
+        z-index: 99
+    }
+}
+
+@media (max-width:767px) {
+    .mobile-none{
+        display: none;
+    }
+    .inner-page-menu{
+        display: flex;
+        gap: 10px;
+        padding: 3px 0;
+        justify-content: space-around;
+    }
+    .inner-page-menu li a{
+        padding: 4px 13px;
+        display: inline-block;
+        color: #fff;
+        font-size: 14px;
+    }
+    .stat-box span{
+        font-size: 11px;
+    }
+    .stat-box h3{
+        font-size: 24px;
+        margin-bottom: 0;
+    }
+    .why-stats{
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 5px;
+        margin-top: 20px;
+    }
+    .about-luxury-section{
+        padding: 50px 0;
+    }
+    .package-card .btn-group{
+        margin: 0 2px 10px;
+    }
+    .inclusion_block img{
+        height: auto;
+    }
+    .swiper-container {
+        position: relative;
+        padding: 0px 20px;
+    }
+    img.banner-bg{
+        /* top: 40%; */
+        /* left: 50%; */
+        /* transform: translate(-50%, -40%); */
+        height: 100%;
+        object-fit: cover;
+    }
+    .hero-tag{
+        /* background: rgb(248 242 225); */
+        /* border: 1px solid #dbdbdb; */
+        font-size: 11px;
+        margin-bottom: 10px;
+    }
+    .hero-features{
+        display: flex;
+        justify-content: start;
+    }
+    header .btn-icon{
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+    .main-logo{
+        height: 60px;
+    }
+    header .menu-desk, .fixed-header.has-sticky .menu-desk{
+        display: none !important;
+    }
+    .package-card .btn{
+        padding: 8px 5px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+    section.itinerary-section img {
+        width: 100%;
+        border-radius: 10px;
+    }
+    .itinerary-section {
+        padding: 15px;
+    }
+    .modal-section-content {
+        height: 75vh;
+        overflow-y: auto;
+    }
+    .hotel-gallery-section .section-subtitle, .seva-section .section-subtitle{
+        font-size: 15px;
+    }
+    .hotel-gallery-section h2 , .seva-section .section-title{
+        font-size: 26px;
+    }
+    .uh-wa{
+        flex:1;
+        text-align: center;
+    }
+    .packages-section .section-subtitle{
+        font-size: 15px;
+    }
+    .packages-section .section-title{
+        font-size: 26px;
+    }
+    .footer-logo{
+        max-width: 30%;
+    }
+    .footer-logo img{
+        width: 100%;
+    }
+    .footer-logo{
+        margin-left: 0;
+    }
+    .footer p{
+        margin-bottom: 60px;
+    }
+    .accordion{
+        margin-top: 20px;
+    }
+    .car-faq{
+        background: #f8f9fb;
+    }
+    blockquote.testimonial-des {
+        font-size: 19px;
+    }
+    .customers-says .swiper-container i{
+        font-size: 25px;
+        margin-top: 0;
+    }
+    .customers-says .swiper-container{
+        margin-top: 10px;
+    }
+    .aboutus ul li .listimg{
+        padding: 10px;
+    }
+    .aboutus ul li .listimg img {
+        width: 30px;
+        height: 30px;
+    }
+    .aboutus h4{
+        color: #7b7b7b;
+        font-size: 20px;
+    }
+    .aboutus h2{
+        font-size: 27px;
+    }
+    .aboutus{
+        position: relative;
+        overflow: hidden;
+    }
+    img.aboutimg{
+        position: relative;
+        /* transform: none; */
+        /* width: 385px; */
+        /* right: -20px; */
+    }
+
+    .why-icon {
+        width: 45px;
+        height: 45px;
+        font-size: 20px;
+    }
+    .why-card{
+        padding: 15px 11px;
+    }
+    .why-grid{
+        gap: 6px;
+    }
+    .why-card {
+        width: 49%;}
+    .pkg-title p, .why-header p{
+        font-size: 15px;
+    }
+    .pkg-title h2, .our-all-car h2{
+        font-size: 26px;
+    }
+    .uh-left p{
+        font-size: 16px;
+    }
+    .uh-left h1{
+        font-size: 30px;
+    }
+    .uh-buttons{
+        justify-content: center;
+    }
+    .uh-features{
+        gap: 13px;
+        font-size: 10px;
+        justify-content: center;
+    }
+    .uh-overlay {
+        background: linear-gradient(180deg, rgba(0, 0, 0, .85), rgb(0 0 0 / 51%));
+    }
+    .uh-left {
+        text-align: center;
+    }
+    .uh-tag {
+     font-size: 14px;
+    }
+    .mobile-cta {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        background: #fff;
+        box-shadow: 0 -1px 15px rgb(0 0 0 / 7%);
+        z-index: 99
+    }
+
+    .mobile-cta a:nth-child(1) {
+        background: #2297fa
+    }
+
+    .mobile-cta a:nth-child(2) {
+        background: #906be6
+    }
+
+    .mobile-cta a:nth-child(3) {
+        background: #7abf00
+    }
+
+    .mobile-cta .btn {
+        text-align: center;
+        font-size: 12px;
+        letter-spacing: .5px;
+        font-weight: 300;
+        max-width: 33.33%;
+        flex: 0 0 33.33%;
+        padding: 0;
+        min-height: auto;
+        position: relative;
+        color: #fff;
+        border-radius: 0
+    }
+
+    .mobile-cta p {
+        position: absolute;
+        margin-bottom: 0;
+        width: 100%;
+        top: -12px;
+        height: 150%;
+        opacity: 0
+    }
+
+    .mobile-cta .btn .icon_bg {
+        height: 37px;
+        width: 37px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
+
+    .mobile-cta .icon {
+        width: 18px;
+        height: 18px;
+        object-fit: contain;
+        display: block;
+        margin: auto
+    }
+
+    .banner .form-card {
+        display: none
+    }
+
+    .packagebtn a,
+    .pbtn .packbtn a {
+        font-size: 12px
+    }
+
+    .btn {
+        padding: 10px 13px;
+        font-size: 15px
+    }
+
+    .cab-section-outer {
+        margin-bottom: 20px
+    }
+
+    .place-content {
+        padding: 8px
+    }
+
+    .place-content p {
+        font-size: .65rem
+    }
+
+    .display-3 {
+        font-size: calc(1rem + 3.3vw)
+    }
+
+    .accordion-header button {
+        font-size: 1.3rem
+    }
+
+    .lead {
+        font-size: 17px;
+        margin-bottom: 0
+    }
+
+    .modal-content.slideupcontent {
+        height: 75vh !important
+    }
+
+    .close-btn {
+        position: relative !important;
+        top: -38px !important;
+        left: 0px !important;
+        margin: -29px auto !important
+    }
+
+    .slideupcontent {
+        width: 100% !important
+    }
+
+    .whyus .modeltitle {
+        font-size: 16px
+    }
+
+    .packagemenu li a {
+        font-size: 11px;
+        padding: 5px 10px
+    }
+
+    .provider-outer {
+        flex-direction: column
+    }
+
+    .tripslider {
+        width: 100%
+    }
+
+    .insidecontent {
+        flex: 0 0 100%
+    }
+
+    .insidebox {
+        flex-direction: column
+    }
+
+    .htlTaBoxx tbody td {
+        font-size: 12px !important;
+        padding: 8px;
+        padding-left: 50% !important
+    }
+
+    .htlTaBoxx tbody td {
+        border: none
+    }
+
+    .htlTaBoxx,
+    .htlTaBoxx tbody,
+    .htlTaBoxx tr,
+    .htlTaBoxx td {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%
+    }
+
+    .htlTaBoxx tr {
+        margin-bottom: 15px;
+        border-bottom: 2px solid #f0f0f0
+    }
+
+    .htlTaBoxx td {
+        text-align: left;
+        padding-left: 50%;
+        position: relative
+    }
+
+    
+    
+}
